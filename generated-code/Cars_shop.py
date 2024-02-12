@@ -29,7 +29,6 @@ Volkswagen = {"Amarok": 199980,
               "Tiguan": 156980,
               "Polo": 82980,
               "Golf 8": 120980}
-
 def welcome():
     print("Welcome! These are the available Cars... What are you looking for?")
     print("1. Kia")
@@ -43,7 +42,6 @@ wallet = 200000  # Initialize wallet
 welcome()   
 rep = input()
 model = ""
-
 # Mapping user input to model
 match rep:
     case "1":
